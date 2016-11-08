@@ -2,26 +2,23 @@
  * @Author: kelly007
  * @Date:   2016-11-08 13:14:31
  * @Last Modified by:   kelly007
- * @Last Modified time: 2016-11-08 16:33:08
+ * @Last Modified time: 2016-11-08 16:43:06
  */
 
 'use strict';
 Zepto(function($) {
+	/**
+	 * [description=计时器]
+	 */
     setInterval(function(){
-    	timer();
-    }, 1000);
-    /**
-     * [timer 计时器函数]
-     * @return {[type=string]} [description:时钟]
-     */
-    function timer() {
-        /**
+    	/**
          * [currentDate description:当前日期]
          * @type {[type]}
          */
         var currentDate = new Date();
         $(".currentDate").text(formatDateTime(currentDate));
-    };
+    }, 1000);
+
     /**
      * [formatDateTime description:格式化时间]
      * @param  {[type]} date [description]
