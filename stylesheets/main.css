@@ -2,7 +2,7 @@
 * @Author: kelly007
 * @Date:   2016-11-08 16:55:02
 * @Last Modified by:   kelly007
-* @Last Modified time: 2016-11-08 17:59:03
+* @Last Modified time: 2016-11-10 13:32:50
 */
 
 @-webkit-keyframes bounce {
@@ -30,8 +30,8 @@
 }
 
 .ball {
-	position: fixed;
-	top: 0;
+	position: absolute;
+	top: -3vw;
 	left: 60%;
     border-radius: 50%;
     width: 5vw;
