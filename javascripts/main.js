@@ -46,7 +46,7 @@ Zepto(function($) {
             seconds = "0" + seconds;
         }
         $(".together").html(days+"天 "+hours+"时 "+minutes+"分 "+seconds+"秒");
-    }
+    };
 
     /**
      * [formatDateTime description:格式化时间]
