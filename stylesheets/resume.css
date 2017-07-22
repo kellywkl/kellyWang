@@ -28,17 +28,12 @@ header .avatar img {
     height: 80px;
 }
 
-header .job {
-    width: 300px;
-    margin: auto;
-}
-
-header h2.job {
+header p {
     margin-top: 10px;
     width: 100%;
+    font-size: 26px;
     font-weight: bold;
     color: #000;
-    display: block;
     text-align: center;
 }
 
