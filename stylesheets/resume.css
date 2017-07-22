@@ -1,0 +1,89 @@
+/*header style  */
+
+header {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    border-bottom: solid 0px #275da1;
+    /* height: 500px; */
+    background: url('../images/resume-1.jpg') no-repeat;
+    background-size: 100%;
+    background-position-y: -200px;
+}
+
+header h2 {
+    color: #007ACC;
+    float: left;
+}
+
+header .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20%;
+}
+
+header .avatar img {
+    width: 80px;
+    height: 80px;
+}
+
+header .job {
+    width: 300px;
+    margin: auto;
+}
+
+header h2.job {
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+#content-wrapper {
+    padding-top: 0px;
+}
+
+
+/* 
+#content-wrapper .introduction {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    padding-top: 0px;
+    height: 300px;
+    background: #9ddcff;
+} */
+
+#main-content {
+    width: 100%;
+}
+
+#main-content h3 {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.skills .item {
+    background: #007ACC;
+    margin: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+.introduction {
+    background: url(../images/download-button.png) no-repeat;
+    height: 100px;
+    width: 200px;
+    float: left;
+}

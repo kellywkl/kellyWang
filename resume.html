@@ -4,12 +4,85 @@
 <head>
     <title>Kellywang个人简历</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <!-- <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print"> -->
+    <!-- <link href="stylesheets/normalize.css" rel="stylesheet">  -->
+    <link href="stylesheets/resume.css" rel="stylesheet">
 </head>
 
 <body>
-    <h2>我的个人简历</h2>
+    <header>
+        <h2 class="currentDate"></h2>
+        <div class="avatar">
+            <img src="images/avatar.png" alt="avatar">
+        </div>
+        <h2 class="job">前端工程师</h2>
+        <h2 class="job">害你加班的bugger就是我写的(●'◡'●)</h2>
+    </header>
+    <div id="content-wrapper">
+        <!-- <div class="introduction">
+            <section id="main-content">
+                <h3>
+                    <a href="/kellyWang/resume.html">Kills</a>
+                </h3>
+                <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select
+                    a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+            </section>
+        </div> -->
+        <div class="inner clearfix">
+            <section id="main-content">
+                <h3>
+                    <a href="javascript:;">技能（skills）</a>
+                </h3>
+                <div class="skills">
+                    <div class="item">javascript</div>
+                    <div class="item">nodejs</div>
+                    <div class="item">css3</div>
+                    <div class="item">html5</div>
+                    <div class="item">Vue</div>
+                    <div class="item">React</div>
+                    <div class="item">C#</div>
+                    <div class="item">SQL</div>
+                </div>
+            </section>
+        </div>
+        <div class="inner clearfix">
+            <section id="main-content">
+                <h3>
+                    <a href="javascript:;">自我介绍 （About me）</a>
+                </h3>
+                <p>姓名：王凯亮;年龄：28；邮箱：wkl_sysfdx@qq.com；学历：本科
+                </p>
+            </section>
+        </div>
+        <div class="inner clearfix">
+            <section id="main-content">
+                <h3>
+                    <a href="javascript:;">经验 （Experience）</a>
+                </h3>
+                <p>2014年七月毕业于沈阳师范大学软件学院</p>
+            </section>
+        </div>
+    </div>
+    <script type="text/javascript" src="javascripts/zepto.min.js"></script>
+    <script type="text/javascript" src="javascripts/main.js"></script>
+    <script>
+        $(function() {
+            var h = window.screen.availWidth * (1024 / 1280);
+            h = h > 500 ? 500 : h;
+            $("header").height(h);
+            var w = ($(".skills").width() - 45) / 4;
+            $(".item").css({
+                "flex-basis": w,
+                "height": w,
+                "line-height": w + "px",
+                "border-radius": w / 2
+            });
+        })
+    </script>
 </body>
 
 </html>
