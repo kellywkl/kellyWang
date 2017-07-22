@@ -38,6 +38,7 @@ header h2.job {
     width: 100%;
     font-weight: bold;
     color: #000;
+    display: inline-block;
     text-align: center;
 }
 
