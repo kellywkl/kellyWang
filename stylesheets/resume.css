@@ -28,10 +28,9 @@ header .avatar img {
     height: 80px;
 }
 
-header p {
+header h2.job {
     margin-top: 10px;
     width: 100%;
-    font-size: 26px;
     font-weight: bold;
     color: #000;
     text-align: center;
