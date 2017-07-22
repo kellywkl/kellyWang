@@ -72,7 +72,7 @@
     <script>
         $(function() {
             var h = window.screen.availWidth * (1024 / 1280);
-            h = h > 500 ? 500 : h;
+            h = h > 500 ? 500 : h + 50;
             $("header").height(h);
             var w = ($(".skills").width() - 85) / 4;
             $(".item").css({

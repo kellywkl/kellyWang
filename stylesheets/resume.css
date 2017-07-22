@@ -81,6 +81,11 @@ header h2.job {
     font-size: 24px;
 }
 
+.skills .item:hover {
+    background: #9A7A2E;
+    color: #000000;
+}
+
 .introduction {
     background: url(../images/download-button.png) no-repeat;
     height: 100px;
