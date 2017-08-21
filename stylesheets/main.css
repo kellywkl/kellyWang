@@ -1,8 +1,8 @@
 /*
 * @Author: kelly007
 * @Date:   2016-11-08 16:55:02
-* @Last Modified by:   kelly007
-* @Last Modified time: 2016-11-10 13:32:50
+* @Last Modified by:   kelly
+* @Last Modified time: 2017-08-21 21:35:11
 */
 
 @-webkit-keyframes bounce {
@@ -49,4 +49,11 @@
     animation: bounce 1.0s cubic-bezier(0.30, 2.40, 0.85, 2.50) infinite;
     text-align: center;
     color: #7ED53D;
+    /*animation: App-logo-spin infinite 2s linear;*/
 }
+
+/*@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
+
