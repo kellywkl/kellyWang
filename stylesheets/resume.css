@@ -21,13 +21,17 @@ header .avatar {
     margin: auto;
     overflow: hidden;
     margin-top: 20%;
+    animation: Avatar-logo infinite 5s linear;
 }
 
 header .avatar img {
     width: 80px;
     height: 80px;
 }
-
+@keyframes Avatar-logo {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
 header h2.job {
     width: 100%;
     margin: 5px auto;
