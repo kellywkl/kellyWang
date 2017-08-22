@@ -21,7 +21,7 @@ header .avatar {
     margin: auto;
     overflow: hidden;
     margin-top: 20%;
-    animation: Avatar-logo infinite 5s linear;
+    animation: Avatar-logo infinite 20s linear;
 }
 
 header .avatar img {
